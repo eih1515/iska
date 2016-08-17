@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* body {
+    font-family: 'raleway';
+}
+
+.jumbotron {
+    background-image:-webkit-linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/background.jpg);
+    background-image:linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Navbar*/
+.navbar {
+    background-color: transparent;
+    border: none;
+  
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color:#fff;
+    
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #95a5a6;
+    font-weight: 500;
+    padding: 15px 0 5px 0;
+    margin-right: 20px;   
+    -webkit-transition: all .2s;   
+    transition: all .2s;
+    
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*end Nav */
+
+/* Banner*/
+
+.banner {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+}
+.banner h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 52px;
+}
+
+.banner h1 span {
+    color:#f39c12;
+}
+
+.banner p{
+    font-weight: 400;
+    color: #95a5a6;
+    font-size: 21px;
+    margin: 100px
+} 
+
+.btn {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.btn-success {
+    height: 50px;
+    width: 199px;
+    background-color: #f39c12;
+    border: none;
+    border-bottom: 2px solid #b9750a;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.btn-success:hover {
+    background-color: #d8890b;
+    border-bottom: 2px solid #d8890b;
+}
+.btn-success:target{
+    background-color: #f39c12;
+}
+.btnmore{
+    height: 50px;
+    width: 199px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    border: 1px solid #f39c12;
+    color: #f39c12;
+    margin-left: 10px;
+}
+.btn-default {
+    height: 50px;
+    width: 199px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    border: 1px solid #f39c12;
+    color: #f39c12;
+    margin-left: 10px;
+    background-color: transparent;
+        
+}
+
+.btn-default:hover {
+    background-color: #d8890b;
+    color: #fff;
+    border: none;
+}
+/*End Banner*/
+
+/* About*/
+section {
+    padding: 80px 0;
+   
+}
+h2 {
+    font-size:40px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #f39c12;
+    content: "";
+    margin: 0 auto;
+    margin-top: 16px;
+}
+p {
+    font-size: 16 px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    
+    
+    
+}
+img {
+    max-width: 100%;
+}
+
+/*e End Banner*/
+/* About*/
+.col1{
+    margin-top: 20;
+}
+.col1 i {
+    
+    font-size:50px;
+    color: #f39c12
+}
+.col1 h3{
+    font-size: 25px;
+    font-weight: 500;
+    color:#2b2a2a;
+    margin: 0;
+}
+
+.col1 p{
+    font-size: 16px;
+    font-weight: 300;
+    color:#434343;
+    
+}
+
+.col1 .btn {
+    width: 130px;
+    height: 34px;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 20px;
+}
+/* subscribe */ 
+
+.subscribe {
+    background-image: -webkit-linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/subscribe.jpg);
+    background-image: linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 100%;
+    
+}
+form input {
+    width:437px;
+    height: 49px;
+    border-radius: 8px;
+    color: #808080;
+    border: 1 px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+/* Produits*/
+
+.btn-groupe {
+    margin: 20px;
+}
+.btn-groupe .btn-primary{
+    
+    background-color: #f39c12;
+    color:#fff;
+    border: none;
+    width: 65px;
+    height: 34px;
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+.btn-groupe .btn-primary:hover {
+    background-color: #d8890b;
+}
+.btn-groupe .btn-default {
+    height: 34px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #95a5a6;
+    font-weight: 600;
+    border: 1px solid #f39c12;
+    background-color: white;
+}
+.btn-groupe .btn-default:hover{
+    color:#f39c12;
+    background-color: none;
+    border: 1px solid #f39c12;
+   
+}
+
+.portfolio img {
+    margin-top: 20px;
+}
+
+
+.galerie {
+    position: relative;
+}
+.caption{
+    position: absolute;
+    display: block;
+    top: 20px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    background-color: rgba(243,156,18,0.8);
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+.caption:hover{
+    opacity: 1;
+}
+.caption i{
+  background-color: #fff;
+    font-size: 15px;
+}
+.btn-trigger{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    padding-right: 40px;
+    
+    
+    
+}
+.link, .more{
+    padding: 10px;
+    
+}
+/* Services*/
+.content {
+    padding: 0;
+    
+}
+.content img{
+    width: 100%;
+    height: 560px;
+}
+.col3 {
+    
+   background-image:-webkit-linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/services2.jpg);
+    
+   background-image:linear-gradient(rgba(44,62,80, .8),rgba(44,62,80, .8)),url(../img/services2.jpg);   
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.text {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+.text i{
+    float: left;
+    font-size: 32px;
+    color: #f39c12;
+}
+.text h4{
+    margin-left: 50px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.text h4:after{
+    display: block;
+    height: 4px;
+    width: 15px;
+    background-color: #f39c12;
+    content: "";
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.text p {
+    color: #e6eded;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* Catalogue */
+.catalogue{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.catalogue .btn{
+    margin-top:40px;
+    
+}
+
+/* Contact */
+.contact {
+     background:-webkit-linear-gradient(rgba(44,62,80, .6),rgba(44,62,80, .8)),url(../img/subscribe.jpg);
+     background:linear-gradient(rgba(44,62,80, .6),rgba(44,62,80, .8)),url(../img/subscribe.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding: 10px;
+}
+
+.contact h3 {
+    color: #f2f2f2;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact h3:after{
+    display: block;
+    height: 4px;
+    width: 15px;
+    background-color: #f39c12;
+    content: "";
+    margin-top: 10px;
+}
+
+.form {
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.form i {
+    color: #f39c12;
+    margin-right: 5px;
+}
+
+form  input {
+    width: 100%;
+    padding: 7px;
+	
+    margin-bottom: 10px;
+    border: 1px solid  #ccc;
+    
+}
+
+form  textarea {
+    height: 125px;
+    width: 100%;
+    padding: 7px;
+	
+    margin-bottom: 10px;
+    border: 1px solid  #ccc;
+	
+	
+}
+
+.contact .btn-success{
+   font-size: 15px;
+    height: 40px;
+    width: 80px;
+}
+
+/* footer */
+
+footer {
+    background-color: #2c3e50;
+    padding: 20px;
+       
+    
+}
+.footertext h6 {
+    color: #b2b2b2;
+}
+.ico div{
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #b2b2b2;
+}
+
+
+/*Responsive */
+@media(max-width:768px){
+    .banner h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .banner p{
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        margin: auto;
+    }
+    .btn {
+        margin-left: 0;
+        margin-top: 30px;
+        height:40px;
+        width: 160px;
+        line-height: 20px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .text{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .text h4{
+        font-size: 18px;
+        
+    }
+        
+    .text p{
+        font-size: 15px;
+    }
+    .text i{
+        font-size:18px;
+    }
+
+}
+
+
+@media(max-width:1000px)
+{
+    .banner h1{
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    .banner p{
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .btn {
+        margin-left: 0;
+        margin-top: 30px;
+        height:40px;
+        width: 160px;
+        line-height: 20px;
+    }
+}
+/*animation */
+    .js-1, .js-2, .js-3, .js-4{
+        opacity: 0;
+    }
+    .js-1.animated, .js-2.animated, .js-3.animated, .js-4.animated{
+        opacity: 1;
+    }
+    
+    
+    /* MixitUp*/
+    
+    #Container .mix{
+	display: none;
+}
